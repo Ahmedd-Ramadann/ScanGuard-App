@@ -11,7 +11,7 @@ npm ci
 npm start
 ```
 
-Use Expo SDK 57 with a compatible Expo Go, or `npm run web` for a browser. To generate the browser preview, run npm run preview:build, then open Preview.html.
+Use Expo SDK 58 with a compatible Expo Go, or `npm run web` for a browser. To generate the browser preview, run npm run preview:build, then open Preview.html.
 
 ## What works
 
