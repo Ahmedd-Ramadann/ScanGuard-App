@@ -1,0 +1,33 @@
+{
+    "expo":  {
+                 "name":  "ScanGuard",
+                 "slug":  "scanguard-ui",
+                 "version":  "1.0.0",
+                 "orientation":  "portrait",
+                 "userInterfaceStyle":  "dark",
+                 "ios":  {
+                             "supportsTablet":  true
+                         },
+                 "android":  {
+                                 "package":  "com.scanguard.uiprototype",
+                                 "adaptiveIcon":  {
+                                                      "foregroundImage":  "./assets/adaptive-icon.png",
+                                                      "backgroundColor":  "#090B0E"
+                                                  }
+                             },
+                 "web":  {
+                             "bundler":  "metro",
+                             "name":  "ScanGuard",
+                             "favicon":  "./assets/favicon.png"
+                         },
+                 "plugins":  [
+                                 "expo-font"
+                             ],
+                 "icon":  "./assets/icon.png",
+                 "splash":  {
+                                "image":  "./assets/splash-icon.png",
+                                "resizeMode":  "contain",
+                                "backgroundColor":  "#090B0E"
+                            }
+             }
+}

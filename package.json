@@ -1,0 +1,35 @@
+{
+  "name": "scanguard-ui",
+  "description": "ScanGuard Phase 1 React Native UI prototype",
+  "license": "0BSD",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "@expo/vector-icons": "^15.0.2",
+    "expo": "~57.0.31",
+    "expo-clipboard": "~57.0.2",
+    "expo-font": "~57.0.4",
+    "expo-status-bar": "~57.0.1",
+    "qrcode-generator": "^2.0.4",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-web": "^0.21.2"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "typescript": "~6.0.3"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit",
+    "export:web": "expo export --platform web",
+    "preview:build": "npm run export:web && node scripts/build-preview.cjs"
+  },
+  "private": true
+}
+
